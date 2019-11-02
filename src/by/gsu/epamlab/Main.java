@@ -23,8 +23,9 @@ public class Main {
         businessTrips[businessTrips.length - 1].setTransportationExpenses(50);
 
         //4 Output the total duration of two initial business trips by the single operator
-        System.out.print("4. Output the total duration of two initial business trips by the single operator = ");
-        System.out.println(businessTrips[0].getNumberOfDays() + businessTrips[1].getNumberOfDays() + "\n");
+        System.out.print("4. Output the total duration of two initial business trips by the single operator\n");
+        int duration = businessTrips[0].getNumberOfDays() + businessTrips[1].getNumberOfDays();
+        System.out.println("Duration = " + duration + "\n");
 
         //5 Output the contents of the array to the console, using toString() method
         System.out.println("5. Output the contents of the array to the console, using toString() method");

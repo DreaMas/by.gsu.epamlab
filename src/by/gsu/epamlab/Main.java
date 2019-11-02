@@ -1,7 +1,7 @@
 package by.gsu.epamlab;
 
 public class Main {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         //1. Creating an array of objects
         System.out.println("1. Creating an array of objects");
         BusinessTrip[] businessTrips = new BusinessTrip[]{
